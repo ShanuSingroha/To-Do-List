@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const date = require(__dirname + "/date.js");
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://Shanu:sshhaannuu@cluster0.kcent.mongodb.net/TODOLISTDB", {
+mongoose.connect("mongodb+srv://Shanu:sshhaannuu@cluster0.kcent.mongodb.net/TODOLISTDBssl=true", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });;
